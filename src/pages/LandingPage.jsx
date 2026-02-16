@@ -34,7 +34,7 @@ const LandingPage = () => {
                     Practice, assess, and prepare for your dream job with our comprehensive placement readiness platform.
                 </p>
                 <button
-                    onClick={() => navigate('/placement/dashboard')}
+                    onClick={() => navigate('/dashboard')}
                     className="bg-primary hover:bg-[#7248e3] text-white px-8 py-4 rounded-md font-semibold text-lg flex items-center gap-2 transition-all transform hover:scale-105"
                 >
                     Get Started <ChevronRight className="w-5 h-5" />

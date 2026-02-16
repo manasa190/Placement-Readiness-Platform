@@ -4,14 +4,14 @@ import { LayoutDashboard, BookOpen, PenTool, FileText, User, GraduationCap, Cloc
 
 const Sidebar = () => {
     const links = [
-        { to: '/placement/dashboard', label: 'Dashboard', icon: <LayoutDashboard /> },
-        { to: '/placement/practice', label: 'Practice', icon: <BookOpen /> },
-        { to: '/placement/assessments', label: 'Assessments', icon: <PenTool /> },
-        { to: '/placement/history', label: 'History', icon: <Clock /> },
-        { to: '/placement/07-test', label: 'Checklist', icon: <CheckCircle2 /> },
-        { to: '/placement/proof', label: 'Proof', icon: <Trophy /> },
-        { to: '/placement/resources', label: 'Resources', icon: <FileText /> },
-        { to: '/placement/profile', label: 'Profile', icon: <User /> },
+        { to: '/dashboard', label: 'Dashboard', icon: <LayoutDashboard /> },
+        { to: '/practice', label: 'Practice', icon: <BookOpen /> },
+        { to: '/assessments', label: 'Assessments', icon: <PenTool /> },
+        { to: '/history', label: 'History', icon: <Clock /> },
+        { to: '/07-test', label: 'Checklist', icon: <CheckCircle2 /> },
+        { to: '/proof', label: 'Proof', icon: <Trophy /> },
+        { to: '/resources', label: 'Resources', icon: <FileText /> },
+        { to: '/profile', label: 'Profile', icon: <User /> },
     ];
 
     return (
